@@ -208,6 +208,7 @@
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = sqlcipher;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -239,6 +240,7 @@
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = sqlcipher;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -258,7 +260,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = "$(PLATFORM_NAME)";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator macosx iphoneos";
 			};
@@ -279,7 +281,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				SDKROOT = "$(PLATFORM_NAME)";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator macosx iphoneos";
 			};
@@ -292,6 +294,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PRODUCT_NAME = amalgamation;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -301,6 +304,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				PRODUCT_NAME = amalgamation;
+				SDKROOT = iphoneos;
 				ZERO_LINK = NO;
 			};
 			name = Release;
